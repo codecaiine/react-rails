@@ -10,11 +10,13 @@ const store = configureStore();
 class App extends React.Component {
   render () {
     return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={ <Greeting greeting="Friend"/> }></Route>
-        </Routes>
-      </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={ <Greeting /> }></Route>
+          </Routes>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
