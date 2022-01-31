@@ -1,12 +1,6 @@
 class Api::V1::MessageController < ApplicationController
     def index
-        render json: {:messages => [
-          {
-            :message => 'First Test',
-          },
-          {
-            :message => 'Second Test',
-          }
-        ]}.to_json
+        @message = Message.all.sample(1)
+        render json: { :messages => @message }.to_json
     end
 end
