@@ -1,24 +1,26 @@
-# README
+ # Hello-Rails-React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project contains the first trial at connecting React on the front-end to Ruby-on-Rails on the backend. The app displays random messages contained in the seed file every time the button is clicked on.
+## Built With
 
-Things you may want to cover:
+- Ruby On Rails
+- React-Rails gem
+- Redux
+- Git
 
-* Ruby version
+## Author
 
-* System dependencies
+👤 **Yannick-Noel Aka**
 
-* Configuration
+- GitHub: [@codecaiine](https://github.com/codecaiine/)
 
-* Database creation
 
-* Database initialization
+## 🤝 Contributing
 
-* How to run the test suite
+Contributions, issues, and feature requests are welcome!
 
-* Services (job queues, cache servers, search engines, etc.)
+Feel free to check the [issues page](https://github.com/codecaiine/react-rails/issues).
 
-* Deployment instructions
+## Show your support
 
-* ...
+Give a ⭐️ if you like this project!
